@@ -259,3 +259,11 @@ text-transform: capitalize;
   line-height: 160%; /* 38.384px */
   text-transform: capitalize;
 }
+
+.nft-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 30px;
+  max-width: 1410px;
+  justify-content: center;
+}
