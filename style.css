@@ -267,3 +267,58 @@ text-transform: capitalize;
   max-width: 1410px;
   justify-content: center;
 }
+
+.btn-sign-up{
+ display: flex;
+height: 60px;
+padding: 0px 30px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 20px;
+background: var(--call-to-action, #A259FF);
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+border: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1410px;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+}
+
+.icon-logo-text {
+  position: relative;
+  top: 2px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav a {
+  color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+text-decoration: none;
+}
